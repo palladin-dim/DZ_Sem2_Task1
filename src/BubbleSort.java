@@ -1,7 +1,10 @@
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
-
+/* 
+Реализуйте алгоритм сортировки пузырьком числового массива (введён вами),
+результат после каждой итерации запишите в лог-файл.
+*/
 public class BubbleSort {
     public static void main(String[] args) {
         int[] arr = {3, 2, 1, 5, 4}; // исходный массив чисел
